@@ -1,0 +1,2730 @@
+/* index.php */
+
+* {
+    margin : 0;
+    padding: 0;
+}
+
+.header {
+    background: #ede2d1;
+background: linear-gradient(180deg,#ede2d1 0%, #dddbdb 80%);
+background: -webkit-linear-gradient(180deg,#ede2d1 0%, #dddbdb 80%);
+background: -moz-linear-gradient(180deg,#ede2d1 0%, #dddbdb 80%);
+    height: 130px;
+    display : flex;
+    justify-content: space-between;
+}
+
+.img {
+    padding-bottom : 5px;
+    margin-left : 15px;
+}
+
+.img2 {
+    padding-right : 7px;
+}
+
+.login {
+    display : flex;
+    align-items : center;
+}
+
+.navbar {
+    display : flex;
+    list-style : none;
+    align-items : center;
+    gap : 5rem;
+    padding: 3rem;
+    font-weight :bold;
+    font-size : 15px;
+    font-family : Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+a:hover {
+    border-bottom : 3px solid;
+    color :rgb(93, 149, 165);
+}
+
+a {
+    color :rgb(97, 89, 57);
+    text-decoration : none;
+    transition : 1s ease-in-out;
+    transition-duration : 0.250ms;
+}
+
+.main {
+    height : 770px;
+    background-image :url('food4.jpg');
+    background-size : cover;
+    display : flex;
+    object-fit: fill;
+    width : auto;
+}
+
+.text {
+    width : 100%;
+    height : 20px;
+    display : flex;
+    flex-direction : column;
+    align-items : center;
+    justify-content : center;
+}
+
+h4 {
+    font-size : 70px;
+    margin-top : 700px;
+    margin-right : 100px;
+    color : rgb(115, 173, 192);
+    font-family :'garamond';
+    text-shadow: -2px 5px 9px rgba(71,135,197,0.74);
+}
+
+h6 {
+    font-size : 40px;
+    margin-left : 300px;
+    color : rgb(115, 173, 192);
+    font-family :'garamond';
+    text-shadow: -2px 5px 9px rgba(71,135,197,0.74);
+}
+
+.bentuk {
+    font-size : 40px;
+    margin-top : 50px;
+    margin-left : 300px;
+    color : rgb(115, 173, 192);
+    font-family :'garamond';
+    margin-bottom : 30px;
+}
+
+.one {
+    font-size : 60px;
+    margin-top :40px;
+    color : rgb(173, 148, 37);
+    font-family :'garamond';
+    margin-left : 170px;
+}
+
+.two {
+    font-size : 60px;
+    margin-left : 170px;
+    color : rgb(127, 81, 6);
+    font-family :'garamond';
+    text-shadow: -2px 9px 0px rgba(202,111,18,0.6);
+}
+
+.main2 {
+    width : 100%;
+    height : 65px;
+    background-color :rgb(175, 160, 129);
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.three {
+    display : inline-block;
+    font-family :cursive;
+    word-spacing : 2px;
+    letter-spacing : 5px;
+    font-size : 30px;
+    color : rgb(54, 44, 44);
+}
+
+.top, .middle, .bottom{
+    display : flex;
+    justify-content : space-between;
+    width : 0 auto;
+    height : 580px;
+}
+
+.topic, .topic5, .topic7 {
+    background-color : white;
+    width : 50%;
+    height : 580px;
+    display : flex;
+    align-items : center;
+    justify-content : center;
+}
+
+.topic2,  .topic6, .topic8 {
+    background-color : white;
+    height : 400px;
+    width : 400px;
+}
+
+.tanya, .tanya3 {
+    margin-left : 40px;
+    margin-top : 80px;
+    margin-right : 30px;
+}
+
+.tanya2 {
+    margin-left : 60px;
+    margin-top : 80px;
+}
+
+.blok1 {
+    display : flex;
+}
+
+ h1 {
+    font-size : 50px;
+    font-weight : bold;
+    font-family :tahoma;
+ }
+.sub {
+    font-family :Geneva;
+    font-size : 22px;
+    font-weight :500;
+    color : rgb(41, 38, 38);
+}
+
+.isi {
+    font-size : 17px;
+    word-spacing : 2.3px;
+    font-family :serif;
+    line-height : 1.6;
+    color : rgb(43, 41, 41);
+}
+
+.topic3 {
+    height : 580px;
+    width : 50%;
+    display : flex;
+    background-image :url(food5.jpg);
+    background-size : cover;
+    background-position : center;
+}
+
+
+.topic4 {
+    height : 580px;
+    width : 50%;
+    display : flex;
+    background-image :url(food6.jpg);
+    background-size : cover;
+    background-position : center;
+}
+
+.topic9 {
+    height : 580px;
+    width : 50%;
+    display : flex;
+    background-image :url(food7.jpg);
+    background-size : cover;
+    background-position : center;
+}
+
+.main3 {
+    width : 0 auto;
+    height : 400px;
+    background-color : rgb(249, 238, 222);
+    display : flex;
+    justify-content :center;
+    flex-direction : column;
+}
+
+.blok1 {
+    display : flex;
+    width : 700px;
+    height :100px;
+    justify-content : center;
+    align-items : center;
+    margin : 0 auto;
+    margin-bottom : 5px;
+
+}
+
+.blok2 {
+    margin-top : 20px;
+    width : auto;
+    height : 200px;
+    display : flex;
+    justify-content : center;
+}
+
+.blok3, .blok5, .blok7 {
+    margin-top : 30px;
+    width : 250px;
+    height : 150px;
+    display : flex;
+    justify-content : space-evenly;
+    align-items : center;
+}
+
+.blok4, .blok8 {
+    width : 250px;
+    height : 120px;
+}
+
+h5 {
+    font-size : 25px;
+    font-weight : 500;
+    font-family :'Times New Roman', Times, serif;
+    text-align : center;   
+}
+
+.info {
+    text-align : center;
+    color :rgb(107, 103, 103);
+    font-size : 17px;
+    line-height : 1.5;
+}
+
+.blok6 {
+    width : 2px;
+    height : 140px;
+    background-color : black;
+}
+
+.main4 {
+    width : auto;
+    height : 350px;
+    display : flex;
+}
+
+.gambar {
+    width: 20%;
+    height: 350px;
+    background-size: cover;
+    background-position: center;
+    flex: 1;
+    transition: flex 0.8s ease;
+}
+
+.gambar:hover {
+    flex: 1.5;
+}
+
+.footer {
+    width : auto;
+    height : 410px;
+    background-color : #324534;
+    display : flex;
+    justify-content : space-around;
+    align-items : center;
+}
+
+.part1, .part2, .part3{
+    width : 400px;
+    height : 300px;
+    background-color : #324534;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.subpart1, .subpart2, .subpart3 {
+    background-color : #324534;
+    width : 350px;
+    height : 250px;
+}
+
+.footer1 {
+    margin-top : 30px;
+    padding-left : 10px;
+    color : white;
+}
+
+.footer2 {
+    margin-top : 15px;
+    margin-left : 40px;
+    font-size : 50px;
+    color : white;
+    line-height : 1.3;
+}
+
+.subp {
+    padding-left : 10px;
+    margin-top : 15px;
+    font-size : 18px;
+    font-family :'times new roman';
+    color : rgb(255, 255, 255);
+    word-spacing : 4px;
+    letter-spacing : 1px;
+    line-height : 25px;
+}
+
+.email {
+    width : 350px;
+    height : 100px;
+}
+
+.subemail {
+    padding-left : 10px;
+    padding-top : 10px;
+}
+
+.inputemail {
+    padding : 8px;
+    background-color : #324534;
+    border : 1px solid rgb(249, 240, 240);
+    width : 200px;
+    transition : 0.3s ease-in-out;
+}
+
+.inputemail:hover {
+    background-color : #747b74;
+}
+
+.inputsubmit {
+    padding: 8px;
+    border : 1px solid rgb(249, 240, 240);
+    color : rgb(249, 240, 240);
+    background-color : #324534;
+    width : 80px;
+    transition : 0.3s ease-in-out;
+}
+
+.inputsubmit:hover {
+    background-color : #747b74;
+}
+
+#media {
+    text-decoration : none;
+    color : white;
+    border-bottom : none;
+}
+
+.copyright {
+    width : auto;
+    height : 35px;
+    background-color : rgb(236, 216, 203);
+    display : flex;
+    justify-content : center;
+}
+
+.copy {
+    width : 300px;
+    height : 35px;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.end {
+    color : rgb(35, 34, 34);
+    font-family :Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+@media screen and (max-width : 600px) {
+    .header {
+        flex-direction : column;
+        align-items: center; 
+        height: auto; 
+    }
+
+    .navbar {
+        margin-top: 10px;
+        flex-wrap : wrap;
+        gap : 4em;
+    }
+
+    .text {
+        display : none;
+    }
+
+    .blok1 {
+        width: auto; 
+        margin: 20px 0;
+        text-align: center; 
+    }
+
+    .footer {
+        flex-wrap : wrap;
+        height : auto;  
+    }
+
+    .copyright {
+        height : auto;
+    }
+}
+
+@media screen and (max-width : 768px) {
+    .header {
+        flex-direction : column;
+        align-items: center; 
+        height: auto; 
+    }
+
+    .navbar {
+        margin-top: 10px;
+        flex-wrap : wrap;
+        gap : 4em;
+    }
+
+    .text {
+        display :none;
+    }
+
+    .footer {
+        flex-wrap : wrap;
+        height : auto;  
+    }
+
+    .copyright {
+        height : auto;
+    }
+}
+
+@media screen and (max-width : 992px) {
+    .header {
+        flex-direction : column;
+        align-items: center; 
+        height: auto; 
+    }
+
+    .navbar {
+        margin-top: 15px;
+        gap : 3em;
+    }
+
+    .text {
+        display :none;
+    }
+
+    .footer {
+        flex-wrap : wrap;
+        height : auto;  
+    }
+
+    .copyright {
+        height : auto;
+    }
+}
+
+@media screen and (max-width : 1364px) {
+
+    .navbar {
+        margin-top: 15px;
+        gap : 3em;
+    }
+
+    .text {
+        display :none;
+    }
+
+    .footer {
+        flex-wrap : wrap;
+        height : auto;  
+    }
+
+    .copyright {
+        height : auto;
+    }
+}
+
+
+
+
+/* contact.php */
+
+.tengah {
+    background-color :rgb(246, 241, 232);
+    width : auto;
+    height : 350px;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.subtengah {
+    background-color : rgb(246, 241, 232);
+    width : 500px;
+    height : 250px;
+}
+
+.judul {
+    text-align : center;
+    padding-top : 60px;
+    font-size : 70px;
+}
+
+.subjudul {
+    text-align : center;
+    font-family : cursive;
+}
+
+.tengah2 {
+    background-color : white;
+    width : auto;
+    height : 400px;
+    display : flex;
+    justify-content : space-around;
+    align-items : center;
+}
+
+.subtengah2{
+    width : 350px;
+    height : 350px;
+}
+
+.subtengah3 {
+    width : 2px;
+    height : 330px;
+    background-color : black;
+}
+
+.subtengah4 {
+    width : 450px;
+    height : 350px;
+}
+
+.form-container {
+    width : 350px;
+    height : 80px;
+    display : flex;
+    justify-content : space-between;
+}
+
+.form1, .form2 {
+    margin-top : 10px;
+    width : 170px;
+    height : 70px;
+    margin-bottom : 10px;
+    line-height : 30px;
+}
+
+
+.nama {
+    padding : 7px;
+    width : 150px;
+    border : 1px solid black;
+}
+
+.form-container2 {
+    width : 350px;
+    height : 220px;
+    display : flex;
+    flex-direction : column;
+}
+
+.nama2 {
+    padding : 7px;
+    width : 330px;
+    border : 1px solid black;
+}
+
+.nama3 {
+    padding : 30px;
+    width : 284px;
+    border : 1px solid black;
+}
+
+.form-container3 {
+    width : 350px;
+    height : 30px;
+    display : flex;
+    justify-content : center;
+    align-items :center;
+}
+
+.nama4 {
+    background-color : #324534;
+    width : 345px;
+    padding : 6px;
+    border : 1px solid;
+    color : white;
+}
+
+.nama4:hover {
+    background-color : #747b74
+}
+
+
+
+.icon-container {
+    width : 450px;
+    height : 180px;
+    display : flex;
+    justify-content : space-between;
+}
+
+.icon-container2 {
+    width : 450px;
+    height : 155px;
+    display : flex;
+    justify-content : space-between;
+}
+
+.icon1, .icon2 {
+    width : 175px;
+    height : 165px;
+    margin-top : 15px;
+}
+
+.icon3, .icon4 {
+    width : 175px;
+    height : 135px;
+    margin-top :15px;
+}
+
+.ri-links-line, .ri-phone-line, .ri-mail-line, .ri-thumb-up-line {
+    font-size : 35px;
+}
+
+.subicon {
+    font-size : 20px;
+    color : black;  
+    font-family :'Trebuchet MS';
+}
+
+.isiicon {
+    font-size : 15px;
+}
+
+.iconrow {
+    width : 175px;
+    height:30px;
+    display : flex;
+    flex-direction : row;
+    gap : 1.5rem;
+}
+
+.ri-facebook-fill, .ri-twitter-fill, .ri-instagram-fill {
+    font-size : 20px;
+}
+
+.tengah3 iframe {
+    width: 100%;
+}
+
+@media screen and (max-width : 600px) {
+
+    .judul, .subjudul {
+        width: auto; 
+        margin: 20px 0;
+        text-align: center; 
+    }
+
+    .tengah2 {
+        flex-wrap : wrap;
+        height : auto;
+    }
+
+    .subtengah2 {
+        margin-top : 50px;
+    }
+
+    .subtengah3 {
+        display : none;
+    }
+
+    .subtengah4 {
+        margin-top : 50px;
+        margin-left : 100px;
+        margin-bottom : 50px;
+    }
+}
+
+@media screen and (max-width : 768px) {
+
+    .judul, .subjudul {
+        width: auto; 
+        margin: 20px 0;
+        text-align: center; 
+    }
+
+    .tengah2 {
+        flex-wrap : wrap;
+        height : auto;
+    }
+
+    .subtengah2 {
+        margin-top : 50px;
+    }
+
+    .subtengah3 {
+        display : none;
+    }
+
+    .subtengah4 {
+        margin-top : 50px;
+        margin-left : 100px;
+        margin-bottom : 50px;
+    }
+}
+
+@media screen and (max-width : 992px) {
+    .judul, .subjudul {
+        width: auto; 
+        margin: 20px 0;
+        text-align: center; 
+    }
+
+    .tengah2 {
+        flex-wrap : wrap;
+        height : auto;
+    }
+
+    .subtengah2 {
+        margin-top : 50px;
+    }
+
+    .subtengah3 {
+        display : none;
+    }
+
+    .subtengah4 {
+        margin-top : 50px;
+        margin-left : 100px;
+        margin-bottom : 50px;
+    }
+}
+
+
+/* register.php */
+
+.center {
+    background-image : url(bg.jpg);
+    background-size : cover;
+    background-position : center;
+    object-fit : fill;
+    width : 0 auto;
+    height : 100vh;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.center2 {
+    width : 800px;
+    height : 600px;
+    background-color :  rgba(98, 95, 95, 0.2);
+    border-radius : 10px;
+    display : flex;
+    justify-content : space-between;
+}
+
+.center3 {
+    width : 450px;
+    height : 600px;
+    background-image : url(bg3.jpg);
+    background-size : cover;
+    object-fit : fill;
+    background-position: center;
+    border-radius : 10px;
+}
+
+.center4 {
+    width : 350px;
+    height : 600px;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.center5 {
+    width : 300px;
+    height : 500px;
+}
+
+.myform {
+    margin-top : 50px;
+    line-height : 30px;
+}
+
+.myform2 {
+    padding : 5px;
+    width : 280px;
+    border : none;
+    outline : none;
+    border-bottom : 1px solid black;
+}
+
+.myform3 {
+    width : 290px;
+    color : white;
+    padding : 5px;
+    background-color : rgb(141, 133, 118);
+    transition : 0.5s ease-in-out;
+    font-size :  17px;
+    border-radius : 5px;
+}
+
+.myform3:hover {
+    background-color : rgb(194, 183, 157);
+}
+
+.center6 {
+    width : 300px;
+    height : 130px;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.center7 {
+    background-color : rgb(149, 145, 138);
+    width : 90px;
+    height : 70px;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    border-radius : 10px;
+}
+
+#kembali {
+    color : black;
+    text-decoration : none;
+}
+
+#kembali:hover {
+    border-bottom : none;
+}
+
+.fa-arrow-left {
+    font-size : 45px;
+}
+
+@media screen and (max-width : 600px) {
+
+    .center2 {
+        flex-wrap : wrap;
+        height : 900px;
+        align-items : center;
+        display : flex;
+        justify-content : center;
+    }
+
+    .center3 {
+        display : none;
+    }
+}
+
+@media screen and (max-width : 768px) {
+
+    .center2 {
+        flex-wrap : wrap;
+        height : 900px;
+        align-items : center;
+        display : flex;
+        justify-content : center;
+    }
+
+    .center3 {
+        display : none;
+    }
+}
+
+
+/* login.php */
+
+.center10 {
+    width : 300px;
+    height : 600px;
+}
+
+.form {
+    margin-top : 130px;
+    line-height : 30px;
+}
+
+.form3 {
+    width : 290px;
+    color : white;
+    padding : 5px;
+    background-color : rgb(57, 107, 87);
+    transition : 0.5s ease-in-out;
+    font-size :  17px;
+    border-radius : 5px;
+}
+
+.form3:hover {
+    background-color : rgb(116, 159, 141);
+}
+
+.centersec{
+    background-image : url(bg4.jpg);
+    background-size : cover;
+    object-fit : fill;
+    width : 0 auto;
+    height : 100vh;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.center11 {
+    width : 450px;
+    height : 600px;
+    background-image : url(bg2.jpg);
+    background-size : cover;
+    object-fit : fill;
+    background-position: center;
+    border-radius : 10px;
+}
+
+.subregister {
+    font-size : 14px;
+    letter-spacing : 1.5px;
+    font-family : arial;
+}
+
+#lokasi {
+    color : rgb(37, 79, 109);
+}
+
+#lokasi:hover {
+    border-bottom : none;
+}
+
+@media screen and (max-width : 600px) {
+
+
+    .center11 {
+        display : none;
+    }
+}
+
+@media screen and (max-width : 768px) {
+
+
+    .center11 {
+        display : none;
+    }
+}
+
+
+
+/* update.php */
+
+.title {
+    background-image : url(bg6.jpg);
+    background-size : cover;
+    background-position : center;
+    width : auto;
+    height : 150px;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.restoran {
+    font-size : 40px;
+    font-family : cursive;
+    letter-spacing : 5px;
+    text-shadow: 4px 4px 6px rgba(195,148,113,0.6);
+}
+
+
+.choice-container {
+    width : auto;
+    height : 900px;
+    background-image : url(bg9.jpg);
+    background-position :  center;
+    object-fit : fill;
+    background-size : cover;
+    display : flex;
+    justify-content : space-around;
+    flex-wrap : wrap;
+    align-items : center;
+}
+
+.choice1, .choice2, .choice3, .choice4, .choice5 {
+    background-color : rgba(215, 196, 196, 0.5);
+    
+    width : 400px;
+    border-radius : 7px;
+    height : 400px;
+} 
+
+.subchoice1 {
+    background-image : url(../mis/bali/bg3.jpg);
+    background-size : cover;
+    background-position : center;
+    width : auto;
+    height : 175px;
+    border-radius : 7px;
+}
+
+.subchoice2 {
+    background-image : url(bg7.jpg);
+    background-size : cover;
+    background-position : center;
+    width : auto;
+    height : 175px;
+    border-radius : 7px;
+}
+
+.subchoice3 {
+    background-image : url(bg8.jpg);
+    background-size : cover;
+    background-position : center;
+    width : auto;
+    height : 175px;
+    border-radius : 7px;
+}
+
+.subchoice4 {
+    background-image : url(../mis/makassar/bg1.jpg);
+    background-size : cover;
+    background-position : center;
+    width : auto;
+    height : 175px;
+    border-radius : 7px;
+}
+
+.subchoice5 {
+    background-image : url(../mis/surabaya/bg10.jpg);
+    background-size : cover;
+    background-position : center;
+    width : auto;
+    height : 175px;
+    border-radius : 7px;
+}
+
+.judulresto {
+    text-align : center;
+}
+
+.ri-star-s-fill {
+    font-size : 40px;
+    margin-left : 30px;
+}
+
+.ri-star-half-s-line {
+    font-size : 40px;
+    margin-left : 30px;
+}
+
+.ri-star-s-line {
+    font-size : 40px;
+    margin-left : 30px;
+}
+
+
+@media screen and (max-width : 600px) {
+    .restoran {
+        width: auto; 
+        margin: 20px 0;
+        text-align: center; 
+    }
+
+    .choice-container {
+        height : auto;
+        gap : 3em;
+    }
+
+    .choice1 {
+        margin-top : 3em;
+    }
+
+    .choice5 {
+        margin-bottom : 3em;
+    }
+}
+
+@media screen and (max-width : 768px) {
+    .restoran {
+        width: auto; 
+        margin: 20px 0;
+        text-align: center; 
+    }
+
+    .choice-container {
+        height : auto;
+        gap : 3em;
+    }
+
+    .choice1 {
+        margin-top : 3em;
+    }
+
+    .choice5 {
+        margin-bottom : 3em;
+    }
+}
+
+
+@media screen and (max-width : 1364px) {
+    .restoran {
+        width: auto; 
+        margin: 20px 0;
+        text-align: center; 
+    }
+
+    .choice-container {
+        height : auto;
+        gap : 3em;
+    }
+
+    .choice1 {
+        margin-top : 3em;
+    }
+
+    .choice5 {
+        margin-bottom : 3em;
+    }
+}
+
+
+
+/* option.php */
+
+.gambar1 {
+    background-image : url(bg5.jpg);
+    background-size : cover;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+    height : 400px;
+    width : 0 auto;
+}
+
+.subgambar1 {
+    width : 800px;
+    height : 300px;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.subgambar2 {
+    width : 700px;
+    height : 250px;
+}
+
+.kultur {
+    font-size : 80px;
+    text-align : center;
+    line-height : 160px;
+    color : white;
+    font-weight : bold;
+    font-family :cursive;
+}
+
+.subkultur {
+    font-size : 20px;
+    text-align : center;
+    color : white;
+    font-weight : bold;
+    font-family :monospace;
+}
+
+.inti1 {
+    width : auto;
+    height : 50px;
+    background-color : #B3C8CF;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.kota {
+    font-size : 30px;
+    color : black;
+    font-weight : bold;
+    font-family :Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 4px 4px 7px rgba(0,0,0,0.51);
+}
+
+.inti2 {
+    width : auto;
+    height: 300px;
+    background-color : #BED7DC;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap : 2rem;
+    position : relative;
+    padding-left : 200px;
+    padding-top : 30px;
+}
+
+
+
+.container {
+    overflow-x : hidden;
+}
+
+.dalam1 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/palembang/bg1.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.tulisan {
+    color : rgb(255, 255, 255);
+    font-size : 20px;
+}
+
+.dalam2 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/palembang/bg2.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam3 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/palembang/bg3.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam4 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/palembang/bg4.webp);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam5 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/palembang/bg5.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam6 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/palembang/bg6.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+
+.dalam7 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/palembang/bg7.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam8 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/palembang/bg8.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam9 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/palembang/bg9.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam10 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/palembang/bg10.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam11 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/jogja/bg1.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam12 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/jogja/bg2.jpeg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam13 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/jogja/bg3.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam14 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/jogja/bg4.jpeg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam15 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/jogja/bg5.png);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam16 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/jogja/bg6.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam17 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/jogja/bg7.jpeg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam18 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/jogja/bg8.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam19 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/jogja/bg9.webp);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam20 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/jogja/bg10.jpeg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam21 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/bali/bg1.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam22 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/bali/bg2.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam23 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/bali/bg3.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam24 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/bali/bg4.webp);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam25 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/bali/bg5.jpeg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam26 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/bali/bg6.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam27 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/bali/bg7.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam28 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/bali/bg8.jpeg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam29 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/bali/bg9.webp);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam30 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/bali/bg10.jpeg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam31 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/makassar/bg1.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+
+.dalam32 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/makassar/bg2.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+
+.dalam33 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/makassar/bg3.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+
+.dalam34 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/makassar/bg4.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+
+.dalam35 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/makassar/bg5.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+
+.dalam36 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/makassar/bg6.jpeg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+
+.dalam37 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/makassar/bg7.jpeg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+
+.dalam38 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/makassar/bg8.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam39 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/makassar/bg9.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam40 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/makassar/bg10.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam41 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/medan/bg1.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam42 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/medan/bg2.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam43 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/medan/bg3.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam44 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/medan/bg4.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam45 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/medan/bg5.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam46 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/medan/bg6.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam47 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/medan/bg7.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam48 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/medan/bg8.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam49 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/medan/bg9.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam50 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/medan/bg10.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam51 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/surabaya/bg1.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam52 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/surabaya/bg2.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam53 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/surabaya/bg3.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam54 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/surabaya/bg4.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam55 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/surabaya/bg5.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam56 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/surabaya/bg6.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam57 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/surabaya/bg7.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam58 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/surabaya/bg8.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam59 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/surabaya/bg9.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam60 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/surabaya/bg10.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+
+.dalam61 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/manado/bg1.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam62 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/manado/bg2.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam63 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/manado/bg3.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam64 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/manado/bg4.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam65 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/manado/bg5.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam66 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/manado/bg6.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam67 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/manado/bg7.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam68 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/manado/bg8.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam69 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/manado/bg9.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam70 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/manado/bg10.jpeg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam71 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/pontianak/bg1.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam72 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/pontianak/bg2.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam73 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/pontianak/bg3.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam74 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/pontianak/bg4.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam75 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/pontianak/bg5.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam76 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/pontianak/bg6.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam77 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/pontianak/bg7.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam78 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/pontianak/bg8.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam79 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/pontianak/bg9.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam80 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/pontianak/bg10.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam81 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/riau/bg1.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam82 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/riau/bg2.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam83 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/riau/bg3.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam84 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/riau/bg4.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam85 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/riau/bg5.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam86 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/riau/bg6.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam87 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/riau/bg7.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam88 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/riau/bg8.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam89 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/riau/bg9.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam90 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/riau/bg10.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam91 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/jakarta/bg1.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam92 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/jakarta/bg2.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam93 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/jakarta/bg3.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam94 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/jakarta/bg4.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam95 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/jakarta/bg5.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam96 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/jakarta/bg6.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam97 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/jakarta/bg7.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam98 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/jakarta/bg8.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam99 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/jakarta/bg9.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.dalam100 {
+    width : 250px;
+    height : 125px;
+    background-image : url(../mis/jakarta/bg10.jpg);
+    background-size  : cover;
+    border-radius : 10px;
+    background-position : center;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+
+.subdalam1 {
+    width : 250px;
+    height : 125px;
+    background-color : #fff8e7;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.jalan {
+    padding-top : 5px;
+    text-align : center;
+}
+
+.ri-star-fill {
+    font-size : 25px;
+    margin-left : 20px;
+}
+
+.ri-star-half-line {
+    font-size : 25px;
+    margin-left : 20px;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+  content: "";
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  width: initial;
+  height: initial;
+  display: none; 
+  transform: translateY(-50%);
+}
+
+.swiper-button-prev {
+  left: 0;
+}
+
+.swiper-button-next {
+  right: 0;
+}
+
+.swiper-pagination-bullet {
+  background-color: hsl(212, 32%, 40%);
+  opacity: 1;
+}
+
+
+@media screen and (max-width : 600px) {
+
+    .subgambar2 {
+        width : auto;
+        margin : 20px 0;
+        text-align : center;
+    }
+
+    .kultur {
+        font-size : 40px;
+    }
+
+    .subkultur {
+        font-size : 25px;
+    }
+
+
+}
+
+@media screen and (max-width : 768px) {
+    .subgambar2 {
+        width : auto;
+        margin : 20px 0;
+        text-align : center;
+    }
+
+    .kultur {
+        font-size : 40px;
+    }
+
+    .subkultur {
+        font-size : 25px;
+    }
+
+    .swiper-wrapper {
+        width :auto;
+        gap : 13rem;
+    }
+
+
+    .swiper-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+}
+
+@media screen and (max-width : 992px) {
+    .subgambar2 {
+        width : auto;
+        margin : 20px 0;
+        text-align : center;
+    }
+
+    .kultur {
+        font-size : 40px;
+    }
+
+    .subkultur {
+        font-size : 25px;
+    }
+
+    .swiper-wrapper {
+        width :auto;
+        gap : 9rem;
+    }
+
+
+    .swiper-wrapper {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+
+/* recommendation.php */
+
+
+.top-recommendation {
+    width : auto;
+    height : 350px;
+    background-color :rgb(246, 241, 232);
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.rekomendasi1 {
+    width : 500px;
+    height : 250px;
+   
+}
+
+.judul-rekomendasi {
+    font-size : 70px;
+    color : black;
+    text-align : center;
+    padding-top : 60px;
+}
+
+.teks-rekomendasi {
+    text-align : center;
+    font-family : cursive;
+}
+
+.main-table {
+    height : 450px;
+    width : auto;
+    background-color : rgb(242, 236, 236);
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.table1 {
+    margin-top : 50px;
+    width : 550px;
+    height : 260px;
+    overflow-y : scroll;
+    overflow-x : hidden;
+    zoom : 120%;
+}
+
+table {
+    border-collapse : collapse;
+    text-align : center;
+}
+
+th, td {
+    padding: 7px; 
+    border: 1px solid black; 
+    background-color : #F0EBE3;
+}
+
+#subfile {
+    color: white;
+    background-color: #41B06E;
+}
+#subfile2 {
+    color: white;
+    background-color: #FF204E;
+}
+
+.action {
+    white-space: nowrap;
+}
+
+.action a {
+    margin-right:10px; 
+    margin-left : 5px;
+    padding: 4px 8px; 
+    border: 1px solid transparent; 
+    border-radius: 5px; 
+    font-size: 18px;
+    font-family: tahoma;
+}
+
+.bawah {
+    width : auto;
+    height : 100px;
+    background-color : rgb(242, 236, 236);
+    display : flex;
+    align-items : center;
+    justify-content : space-around;
+}
+
+.bawah2, .bawah5 { 
+    width : 110px;
+    height : 60px;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.bawah2 a {
+    border-bottom : none;
+}
+
+.ri-add-circle-fill {
+    font-size : 60px;
+    color : rgb(84, 174, 227);
+}
+
+/* addrekomendasi.php */
+
+.bawah3 {
+    width : auto;
+    height : 90px;
+    background-color : rgb(242, 236, 236);
+    display : flex;
+    align-items : center;
+    justify-content : space-around;
+}
+
+.table2 {
+    width : 500px;
+    height : 350px;
+    display : flex;
+    justify-content : center;
+    align-items : center;
+}
+
+.addrecommendation {
+    padding : 15px;
+    border-radius: 5px;
+
+    background-color : rgb(125, 207, 155);
+}
+
+.bawah5 a {
+    border-bottom : none;
+}
+
+.ri-arrow-left-circle-fill {
+    font-size : 80px;
+    color : rgb(84, 174, 227);
+}
+
+.form5 {
+    zoom : 150%;
+}
