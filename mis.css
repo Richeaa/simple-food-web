@@ -407,6 +407,80 @@ h5 {
     font-family :Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
+@media screen and (max-width : 400px){
+    .header {
+        flex-direction : column;
+        height : auto;
+    }
+
+    .navbar {
+        margin-top : 10px;
+        flex-wrap : wrap;
+        gap : 1em;
+    }
+
+    .text {
+        display : none;
+    }
+
+    .top, .middle, .bottom {
+        display: flex;
+        flex-wrap : wrap;
+        align-items: center;
+        text-align: center;
+        height : auto;
+    }
+
+    .topic4, .topic9 {
+        background-image : cover;
+        width : 100%;
+    }
+
+    .tanya2 {
+        padding-right : 50px;
+    }
+
+    .topic7 {
+        width : 100%;
+        height : auto;
+    }
+
+    .main3 {
+        height : auto;
+        width : 100%;
+    }
+
+    .blok2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .topic, .topic3, .topic5 {
+        width : 100%;
+    }
+
+    .main3 {
+        display : flex;
+        width : 100%;
+        height : 500px;
+    }
+
+    .blok2 {
+        height : 500px;
+    }
+
+    h1 {
+        font-size : 30px;
+    }
+
+    .blok5 {
+        display : none;
+    }
+
+}
+
 @media screen and (max-width : 600px) {
     .header {
         flex-direction : column;
@@ -689,12 +763,57 @@ h5 {
     width: 100%;
 }
 
+@media screen and (max-width : 400px) {
+    .tengah {
+        width : 100%;
+        height : 400px;
+        flex-wrap : wrap;
+        align-items :normal;
+    }
+
+   
+
+    .subtengah3 {
+        display : none;
+    }
+
+    .subtengah4 {
+        width : 230px;
+        display : flex;
+        flex-wrap : wrap;
+    }
+
+    .icon-container, .icon-container2 {
+        margin-left : -70px;
+        width : 100%;
+        gap : 3em;
+    }
+
+    .icon3, .icon4 {
+        margin-top :90px;
+        width : 100px;
+    }
+
+    .icon1, .icon2 {
+        width : 100px;
+    }
+
+    
+}
+
 @media screen and (max-width : 600px) {
 
     .judul, .subjudul {
         width: auto; 
         margin: 20px 0;
         text-align: center; 
+    }
+
+    .tengah {
+        width : 100%;
+        height : 400px;
+        flex-wrap : wrap;
+        align-items :normal;
     }
 
     .tengah2 {
@@ -714,6 +833,10 @@ h5 {
         margin-top : 50px;
         margin-left : 100px;
         margin-bottom : 50px;
+    }
+
+    .icon-container, .icon-container2 {
+        justify-content :flex-start;
     }
 }
 
