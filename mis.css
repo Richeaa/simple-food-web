@@ -1153,7 +1153,7 @@ h5 {
 } 
 
 .subchoice1 {
-    background-image : url(../mis/bali/bg3.jpg);
+    background-image : url('bali/bg3.jpg');
     background-size : cover;
     background-position : center;
     width : auto;
@@ -1180,7 +1180,7 @@ h5 {
 }
 
 .subchoice4 {
-    background-image : url(../mis/makassar/bg1.jpg);
+    background-image : url('makassar/bg1.jpg');
     background-size : cover;
     background-position : center;
     width : auto;
@@ -1189,7 +1189,7 @@ h5 {
 }
 
 .subchoice5 {
-    background-image : url(../mis/surabaya/bg10.jpg);
+    background-image : url('surabaya/bg10.jpg');
     background-size : cover;
     background-position : center;
     width : auto;
@@ -1365,7 +1365,7 @@ h5 {
 .dalam1 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/palembang/bg1.jpg);
+    background-image : url('palembang/bg1.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -1382,7 +1382,7 @@ h5 {
 .dalam2 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/palembang/bg2.jpg);
+    background-image : url('palembang/bg2.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -1394,7 +1394,7 @@ h5 {
 .dalam3 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/palembang/bg3.jpg);
+    background-image : url('palembang/bg3.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -1406,7 +1406,7 @@ h5 {
 .dalam4 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/palembang/bg4.webp);
+    background-image : url('palembang/bg4.webp');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -1418,7 +1418,7 @@ h5 {
 .dalam5 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/palembang/bg5.jpg);
+    background-image : url('palembang/bg5.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -1430,7 +1430,7 @@ h5 {
 .dalam6 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/palembang/bg6.jpg);
+    background-image : url('palembang/bg6.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -1443,7 +1443,7 @@ h5 {
 .dalam7 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/palembang/bg7.jpg);
+    background-image : url('palembang/bg7.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -1455,7 +1455,7 @@ h5 {
 .dalam8 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/palembang/bg8.jpg);
+    background-image : url('palembang/bg8.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -1467,7 +1467,7 @@ h5 {
 .dalam9 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/palembang/bg9.jpg);
+    background-image : url('palembang/bg9.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -1479,7 +1479,7 @@ h5 {
 .dalam10 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/palembang/bg10.jpg);
+    background-image : url('palembang/bg10.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -1491,7 +1491,7 @@ h5 {
 .dalam11 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/jogja/bg1.jpg);
+    background-image : url('jogja/bg1.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -1503,7 +1503,7 @@ h5 {
 .dalam12 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/jogja/bg2.jpeg);
+    background-image : url('jogja/bg2.jpeg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -1515,7 +1515,7 @@ h5 {
 .dalam13 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/jogja/bg3.jpg);
+    background-image : url('jogja/bg3.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -1527,7 +1527,7 @@ h5 {
 .dalam14 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/jogja/bg4.jpeg);
+    background-image : url('jogja/bg4.jpeg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -1539,7 +1539,7 @@ h5 {
 .dalam15 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/jogja/bg5.png);
+    background-image : url('jogja/bg5.png');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -1551,7 +1551,7 @@ h5 {
 .dalam16 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/jogja/bg6.jpg);
+    background-image : url('jogja/bg6.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -1563,7 +1563,7 @@ h5 {
 .dalam17 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/jogja/bg7.jpeg);
+    background-image : url('jogja/bg7.jpeg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -1575,7 +1575,7 @@ h5 {
 .dalam18 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/jogja/bg8.jpg);
+    background-image : url('jogja/bg8.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -1587,7 +1587,7 @@ h5 {
 .dalam19 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/jogja/bg9.webp);
+    background-image : url('jogja/bg9.webp');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -1599,7 +1599,7 @@ h5 {
 .dalam20 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/jogja/bg10.jpeg);
+    background-image : url('jogja/bg10.jpeg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -1611,7 +1611,7 @@ h5 {
 .dalam21 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/bali/bg1.jpg);
+    background-image : url('bali/bg1.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -1623,7 +1623,7 @@ h5 {
 .dalam22 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/bali/bg2.jpg);
+    background-image : url('bali/bg2.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -1635,7 +1635,7 @@ h5 {
 .dalam23 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/bali/bg3.jpg);
+    background-image : url('bali/bg3.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -1647,7 +1647,7 @@ h5 {
 .dalam24 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/bali/bg4.webp);
+    background-image : url('bali/bg4.webp');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -1659,7 +1659,7 @@ h5 {
 .dalam25 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/bali/bg5.jpeg);
+    background-image : url('bali/bg5.jpeg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -1671,7 +1671,7 @@ h5 {
 .dalam26 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/bali/bg6.jpg);
+    background-image : url('bali/bg6.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -1683,7 +1683,7 @@ h5 {
 .dalam27 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/bali/bg7.jpg);
+    background-image : url('bali/bg7.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -1695,7 +1695,7 @@ h5 {
 .dalam28 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/bali/bg8.jpeg);
+    background-image : url('bali/bg8.jpeg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -1707,7 +1707,7 @@ h5 {
 .dalam29 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/bali/bg9.webp);
+    background-image : url('bali/bg9.webp');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -1719,7 +1719,7 @@ h5 {
 .dalam30 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/bali/bg10.jpeg);
+    background-image : url('bali/bg10.jpeg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -1731,7 +1731,7 @@ h5 {
 .dalam31 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/makassar/bg1.jpg);
+    background-image : url('makassar/bg1.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -1744,7 +1744,7 @@ h5 {
 .dalam32 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/makassar/bg2.jpg);
+    background-image : url('makassar/bg2.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -1757,7 +1757,7 @@ h5 {
 .dalam33 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/makassar/bg3.jpg);
+    background-image : url('makassar/bg3.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -1770,7 +1770,7 @@ h5 {
 .dalam34 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/makassar/bg4.jpg);
+    background-image : url('makassar/bg4.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -1783,7 +1783,7 @@ h5 {
 .dalam35 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/makassar/bg5.jpg);
+    background-image : url('makassar/bg5.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -1796,7 +1796,7 @@ h5 {
 .dalam36 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/makassar/bg6.jpeg);
+    background-image : url('makassar/bg6.jpeg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -1809,7 +1809,7 @@ h5 {
 .dalam37 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/makassar/bg7.jpeg);
+    background-image : url('makassar/bg7.jpeg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -1822,7 +1822,7 @@ h5 {
 .dalam38 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/makassar/bg8.jpg);
+    background-image : url('makassar/bg8.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -1834,7 +1834,7 @@ h5 {
 .dalam39 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/makassar/bg9.jpg);
+    background-image : url('makassar/bg9.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -1846,7 +1846,7 @@ h5 {
 .dalam40 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/makassar/bg10.jpg);
+    background-image : url('makassar/bg10.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -1858,7 +1858,7 @@ h5 {
 .dalam41 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/medan/bg1.jpg);
+    background-image : url('medan/bg1.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -1870,7 +1870,7 @@ h5 {
 .dalam42 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/medan/bg2.jpg);
+    background-image : url('medan/bg2.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -1882,7 +1882,7 @@ h5 {
 .dalam43 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/medan/bg3.jpg);
+    background-image : url('medan/bg3.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -1894,7 +1894,7 @@ h5 {
 .dalam44 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/medan/bg4.jpg);
+    background-image : url('medan/bg4.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -1906,7 +1906,7 @@ h5 {
 .dalam45 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/medan/bg5.jpg);
+    background-image : url('medan/bg5.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -1918,7 +1918,7 @@ h5 {
 .dalam46 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/medan/bg6.jpg);
+    background-image : url('medan/bg6.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -1930,7 +1930,7 @@ h5 {
 .dalam47 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/medan/bg7.jpg);
+    background-image : url('medan/bg7.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -1942,7 +1942,7 @@ h5 {
 .dalam48 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/medan/bg8.jpg);
+    background-image : url('medan/bg8.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -1954,7 +1954,7 @@ h5 {
 .dalam49 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/medan/bg9.jpg);
+    background-image : url('medan/bg9.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -1966,7 +1966,7 @@ h5 {
 .dalam50 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/medan/bg10.jpg);
+    background-image : url('medan/bg10.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -1978,7 +1978,7 @@ h5 {
 .dalam51 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/surabaya/bg1.jpg);
+    background-image : url('surabaya/bg1.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -1990,7 +1990,7 @@ h5 {
 .dalam52 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/surabaya/bg2.jpg);
+    background-image : url('surabaya/bg2.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -2002,7 +2002,7 @@ h5 {
 .dalam53 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/surabaya/bg3.jpg);
+    background-image : url('surabaya/bg3.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -2014,7 +2014,7 @@ h5 {
 .dalam54 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/surabaya/bg4.jpg);
+    background-image : url('surabaya/bg4.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -2026,7 +2026,7 @@ h5 {
 .dalam55 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/surabaya/bg5.jpg);
+    background-image : url('surabaya/bg5.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -2038,7 +2038,7 @@ h5 {
 .dalam56 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/surabaya/bg6.jpg);
+    background-image : url('surabaya/bg6.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -2050,7 +2050,7 @@ h5 {
 .dalam57 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/surabaya/bg7.jpg);
+    background-image : url('surabaya/bg7.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -2062,7 +2062,7 @@ h5 {
 .dalam58 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/surabaya/bg8.jpg);
+    background-image : url('surabaya/bg8.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -2074,7 +2074,7 @@ h5 {
 .dalam59 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/surabaya/bg9.jpg);
+    background-image : url('surabaya/bg9.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -2086,7 +2086,7 @@ h5 {
 .dalam60 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/surabaya/bg10.jpg);
+    background-image : url('surabaya/bg10.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -2099,7 +2099,7 @@ h5 {
 .dalam61 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/manado/bg1.jpg);
+    background-image : url('manado/bg1.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -2111,7 +2111,7 @@ h5 {
 .dalam62 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/manado/bg2.jpg);
+    background-image : url('manado/bg2.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -2123,7 +2123,7 @@ h5 {
 .dalam63 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/manado/bg3.jpg);
+    background-image : url('manado/bg3.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -2135,7 +2135,7 @@ h5 {
 .dalam64 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/manado/bg4.jpg);
+    background-image : url('manado/bg4.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -2147,7 +2147,7 @@ h5 {
 .dalam65 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/manado/bg5.jpg);
+    background-image : url('manado/bg5.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -2159,7 +2159,7 @@ h5 {
 .dalam66 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/manado/bg6.jpg);
+    background-image : url('manado/bg6.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -2171,7 +2171,7 @@ h5 {
 .dalam67 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/manado/bg7.jpg);
+    background-image : url('manado/bg7.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -2183,7 +2183,7 @@ h5 {
 .dalam68 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/manado/bg8.jpg);
+    background-image : url('manado/bg8.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -2195,7 +2195,7 @@ h5 {
 .dalam69 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/manado/bg9.jpg);
+    background-image : url('manado/bg9.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -2207,7 +2207,7 @@ h5 {
 .dalam70 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/manado/bg10.jpeg);
+    background-image : url('manado/bg10.jpeg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -2219,7 +2219,7 @@ h5 {
 .dalam71 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/pontianak/bg1.jpg);
+    background-image : url('pontianak/bg1.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -2231,7 +2231,7 @@ h5 {
 .dalam72 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/pontianak/bg2.jpg);
+    background-image : url('pontianak/bg2.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -2243,7 +2243,7 @@ h5 {
 .dalam73 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/pontianak/bg3.jpg);
+    background-image : url('pontianak/bg3.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -2255,7 +2255,7 @@ h5 {
 .dalam74 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/pontianak/bg4.jpg);
+    background-image : url('pontianak/bg4.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -2267,7 +2267,7 @@ h5 {
 .dalam75 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/pontianak/bg5.jpg);
+    background-image : url('pontianak/bg5.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -2279,7 +2279,7 @@ h5 {
 .dalam76 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/pontianak/bg6.jpg);
+    background-image : url('pontianak/bg6.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -2291,7 +2291,7 @@ h5 {
 .dalam77 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/pontianak/bg7.jpg);
+    background-image : url('pontianak/bg7.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -2303,7 +2303,7 @@ h5 {
 .dalam78 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/pontianak/bg8.jpg);
+    background-image : url('pontianak/bg8.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -2315,7 +2315,7 @@ h5 {
 .dalam79 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/pontianak/bg9.jpg);
+    background-image : url('pontianak/bg9.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -2327,7 +2327,7 @@ h5 {
 .dalam80 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/pontianak/bg10.jpg);
+    background-image : url('pontianak/bg10.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -2339,7 +2339,7 @@ h5 {
 .dalam81 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/riau/bg1.jpg);
+    background-image : url('riau/bg1.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -2351,7 +2351,7 @@ h5 {
 .dalam82 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/riau/bg2.jpg);
+    background-image : url('riau/bg2.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -2363,7 +2363,7 @@ h5 {
 .dalam83 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/riau/bg3.jpg);
+    background-image : url('riau/bg3.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -2375,7 +2375,7 @@ h5 {
 .dalam84 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/riau/bg4.jpg);
+    background-image : url('riau/bg4.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -2387,7 +2387,7 @@ h5 {
 .dalam85 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/riau/bg5.jpg);
+    background-image : url('riau/bg5.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -2399,7 +2399,7 @@ h5 {
 .dalam86 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/riau/bg6.jpg);
+    background-image : url('riau/bg6.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -2411,7 +2411,7 @@ h5 {
 .dalam87 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/riau/bg7.jpg);
+    background-image : url('riau/bg7.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -2423,7 +2423,7 @@ h5 {
 .dalam88 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/riau/bg8.jpg);
+    background-image : url('riau/bg8.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -2435,7 +2435,7 @@ h5 {
 .dalam89 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/riau/bg9.jpg);
+    background-image : url('riau/bg9.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -2447,7 +2447,7 @@ h5 {
 .dalam90 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/riau/bg10.jpg);
+    background-image : url('riau/bg10.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -2459,7 +2459,7 @@ h5 {
 .dalam91 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/jakarta/bg1.jpg);
+    background-image : url('jakarta/bg1.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -2471,7 +2471,7 @@ h5 {
 .dalam92 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/jakarta/bg2.jpg);
+    background-image : url('jakarta/bg2.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -2483,7 +2483,7 @@ h5 {
 .dalam93 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/jakarta/bg3.jpg);
+    background-image : url('jakarta/bg3.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -2495,7 +2495,7 @@ h5 {
 .dalam94 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/jakarta/bg4.jpg);
+    background-image : url('jakarta/bg4.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -2507,7 +2507,7 @@ h5 {
 .dalam95 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/jakarta/bg5.jpg);
+    background-image : url('jakarta/bg5.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -2519,7 +2519,7 @@ h5 {
 .dalam96 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/jakarta/bg6.jpg);
+    background-image : url('jakarta/bg6.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -2531,7 +2531,7 @@ h5 {
 .dalam97 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/jakarta/bg7.jpg);
+    background-image : url('jakarta/bg7.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -2543,7 +2543,7 @@ h5 {
 .dalam98 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/jakarta/bg8.jpg);
+    background-image : url('jakarta/bg8.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -2555,7 +2555,7 @@ h5 {
 .dalam99 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/jakarta/bg9.jpg);
+    background-image : url('jakarta/bg9.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
@@ -2567,7 +2567,7 @@ h5 {
 .dalam100 {
     width : 250px;
     height : 125px;
-    background-image : url(../mis/jakarta/bg10.jpg);
+    background-image : url('jakarta/bg10.jpg');
     background-size  : cover;
     border-radius : 10px;
     background-position : center;
